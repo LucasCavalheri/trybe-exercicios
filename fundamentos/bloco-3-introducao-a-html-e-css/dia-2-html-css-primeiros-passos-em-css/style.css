@@ -5,6 +5,10 @@ h1 {
     font-style: italic;
 }
 
+ul {
+    background-color: black;
+}
+
 p {
     font-weight: 600;
     font-size: 3em;
