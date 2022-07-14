@@ -5,15 +5,15 @@ h1 {
     font-style: italic;
 }
 
-ul {
-    background-color: black;
-}
-
 p {
     font-weight: 600;
     font-size: 3em;
     line-height: 150px;
     text-decoration: line-through;
+}
+
+ul {
+    background-color: black;
 }
 
 body {
