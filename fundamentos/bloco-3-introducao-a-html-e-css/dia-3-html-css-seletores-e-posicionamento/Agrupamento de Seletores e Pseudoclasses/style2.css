@@ -1,3 +1,23 @@
 div:hover {
     border: 5px solid black;
 }
+
+#cor1 {
+    background-color: red;
+}
+
+#cor2 {
+    background-color: green;
+}
+
+#cor3 {
+    background-color: blue;
+}
+
+#cor4 {
+    background-color: brown;
+}
+
+#cor5 {
+    background-color: aqua;
+}
