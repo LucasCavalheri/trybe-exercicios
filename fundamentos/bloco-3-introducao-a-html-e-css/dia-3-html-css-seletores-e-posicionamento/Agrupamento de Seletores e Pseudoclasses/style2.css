@@ -4,6 +4,7 @@ div:hover {
 
 #cor1 {
     background-color: red;
+    font-style: italic;
 }
 
 #cor2 {
@@ -13,6 +14,7 @@ div:hover {
 #cor3 {
     background-color: blue;
     padding: 10px;
+    font-style: italic;
 }
 
 #cor4 {
@@ -21,4 +23,5 @@ div:hover {
 
 #cor5 {
     background-color: aqua;
+    font-style: italic;
 }
