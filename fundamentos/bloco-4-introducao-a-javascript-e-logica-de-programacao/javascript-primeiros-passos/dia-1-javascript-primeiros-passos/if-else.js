@@ -1,4 +1,4 @@
-const nota = 50;
+const nota = 100;
 
 
 if (nota >= 80){
