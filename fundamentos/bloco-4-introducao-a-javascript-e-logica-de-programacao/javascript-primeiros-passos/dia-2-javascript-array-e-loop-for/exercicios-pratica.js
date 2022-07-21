@@ -37,7 +37,7 @@ if(mediaAritmetica > 20){
 
 // 5 -  Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 
-let maior = -999;
+let maior = numbers[0];
 
 for(let i = 0; i < numbers.length; i++){
     if(numbers[i] > maior){
@@ -56,15 +56,15 @@ for(let i = 0; i < numbers.length; i++){
     } 
 }
 
-console.log(`Existem ${numerosImpares} números ímpares.`);
-
 if(numerosImpares === 0){
     console.log('Nenhum valor ímpar encontrado');
+} else {
+    console.log(`Existem ${numerosImpares} números ímpares.`);
 }
 
 // 7 - Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 
-let menor = 9999;
+let menor = numbers[0];
 
 for(let i = 0; i < numbers.length; i++){
     if(numbers[i] < menor){
