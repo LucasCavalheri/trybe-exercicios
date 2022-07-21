@@ -13,7 +13,7 @@ for(let i = 0; i < numbers.length; i++){
     soma = soma + numbers[i];
 }
 
-console.log(soma);
+console.log(`A soma de todos os números é de: ${soma}`);
 
 
 // 3 - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array; 
@@ -46,3 +46,18 @@ for(let i = 0; i < numbers.length; i++){
 }
 
 console.log(`O maior número é: ${maior}`);
+
+// 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+
+let numerosImpares = 0;
+for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] % 2 !== 0){
+        numerosImpares++;
+    } 
+}
+
+console.log(`Existem ${numerosImpares} números ímpares.`);
+
+if(numerosImpares === 0){
+    console.log('Nenhum valor ímpar encontrado');
+}
