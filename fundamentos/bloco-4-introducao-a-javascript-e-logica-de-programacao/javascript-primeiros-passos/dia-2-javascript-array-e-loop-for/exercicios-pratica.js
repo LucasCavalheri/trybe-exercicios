@@ -61,3 +61,15 @@ console.log(`Existem ${numerosImpares} números ímpares.`);
 if(numerosImpares === 0){
     console.log('Nenhum valor ímpar encontrado');
 }
+
+// 7 - Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+let menor = 9999;
+
+for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] < menor){
+        menor = numbers[i];
+    }
+}
+
+console.log(`O menor número é: ${menor}`);
