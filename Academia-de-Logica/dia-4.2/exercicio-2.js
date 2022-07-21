@@ -28,4 +28,4 @@ if(sex === 'M' && age > 0 && weight > 0 && height > 0){
     console.log("Informe um dado válido.");
 }
 
-console.log("A taxa metábolica basal é: " + taxaMetabolica + ' Kcal');
+console.log("A taxa metábolica basal é: " + taxaMetabolica.toFixed(0) + ' Kcal');
