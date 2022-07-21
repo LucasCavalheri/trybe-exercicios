@@ -32,5 +32,17 @@ console.log(`A média aritmética total é de: ${mediaAritmetica}`);
 if(mediaAritmetica > 20){
     console.log('Valor maior que 20.');
 } else {
-    console.log('Valor menor ou igual a 20.')
+    console.log('Valor menor ou igual a 20.');
 }
+
+// 5 -  Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+
+let maior = -999;
+
+for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] > maior){
+        maior = numbers[i];
+    }
+}
+
+console.log(`O maior número é: ${maior}`);
