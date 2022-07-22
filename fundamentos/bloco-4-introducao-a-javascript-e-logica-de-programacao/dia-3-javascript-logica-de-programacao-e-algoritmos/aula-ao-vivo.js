@@ -22,3 +22,14 @@ if(numeros === 50){
 
 /* 3 - Crie um algoritmo que recebe a idade de PessoaX, PessoaY e PessoaZ e imprime quem é a mais nova no formato: "Pessoa" é a mais nova. */
 
+let lucas = 21;
+let igor = 19;
+let gustavo = 18;
+
+if(lucas < igor && lucas < gustavo){
+    console.log("Lucas é a mais nova");
+} else if (igor < lucas && igor < gustavo){
+    console.log("Igor é a mais nova");
+} else {
+    console.log("Gustavo é a mais nova");
+}
