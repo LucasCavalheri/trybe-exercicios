@@ -6,4 +6,4 @@ for(let i = fat; i > 0; i -= 1){
     fat = fat * i;
 }
 
-console.log(fat);
+console.log(fat); 
