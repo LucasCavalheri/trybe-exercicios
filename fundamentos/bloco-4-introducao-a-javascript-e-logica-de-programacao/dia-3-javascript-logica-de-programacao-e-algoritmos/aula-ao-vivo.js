@@ -9,5 +9,16 @@ console.log("A soma de 1 a 50 é:", soma);
 
 /* 2. Crie um algoritmo que conte quantos números do intervalo entre 2 e 150 são divisíveis por 3. Caso a quantidade seja igual a 50, exiba uma mensagem secreta. */
 
+let numeros = 0;
+for(let index = 2; index <= 150; index += 1){
+    if(index % 3 === 0){
+        numeros += 1;
+    } 
+}
+
+if(numeros === 50){
+    console.log("O bolo é uma mentira");
+}
+
 /* 3 - Crie um algoritmo que recebe a idade de PessoaX, PessoaY e PessoaZ e imprime quem é a mais nova no formato: "Pessoa" é a mais nova. */
 
