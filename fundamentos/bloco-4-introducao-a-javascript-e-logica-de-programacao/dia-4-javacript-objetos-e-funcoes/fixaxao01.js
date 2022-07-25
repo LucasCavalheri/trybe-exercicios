@@ -8,3 +8,4 @@ let player = {
     }
 };
 
+console.log(`A jogadora ${player.name} tem ${player.age} anos de idade.`);
