@@ -47,3 +47,35 @@ function maiorNumero(a, b){
 
 console.log(maiorNumero(5, 10));
 console.log(maiorNumero(20, 15));
+
+/* Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados. */
+
+function maiorDeTres(a, b, c){
+    if(a > b && a > c){
+        return `${a} é maior que ${b} e ${c}`
+    } else if (b > a & b > c){
+        return `${b} é maior que ${a} e ${c}`
+    } else {
+        return `${c} é maior que ${a} e ${b}`
+    }
+}
+
+console.log(maiorDeTres(5, 10, 15));
+console.log(maiorDeTres(10, 20, 15));
+console.log(maiorDeTres(25, 15, 10));
+
+/* 4 - Faça um programa que, dado um valor recebido como parâmetro, retorne "positive" se esse valor for positivo, "negative" se for negativo, e caso não seja nem positivo e nem negativo retorne "zero". */
+
+function positiveOrNegative(x){
+    if(x > 0){
+        return `${x} é positivo!`
+    } else if (x < 0){
+        return `${x} é negativo!`
+    } else {
+        return `${x} é igual a ZERO!`
+    }
+}
+
+console.log(positiveOrNegative(5));
+console.log(positiveOrNegative(-5));
+console.log(positiveOrNegative(0));
