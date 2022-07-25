@@ -23,3 +23,4 @@ console.log(`A jogadora ${player['name']} foi eleita a melhor do mundo por ${pla
 
 /* 5 - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 Agora veremos uma variação do laço for, que nos garante facilidade ao lidar com objetos. */
+console.log(`A jogadora ${player.name} possui ${player.medals.golden} medalhas de ouro e ${player.medals.silver} medalhas de prata`);
