@@ -34,3 +34,16 @@ Subtração: ${subtracao(5, 5)}
 Multiplicação: ${multiplicacao(5, 5)}
 Divisão: ${divisao(5, 5)}
 Módulo: ${modulo(5, 5)}`);
+
+/* 2 - Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados. */
+
+function maiorNumero(a, b){
+    if(a > b){
+        return `${a} é maior que ${b}`;
+    } else {
+        return `${b} é maior que ${a}`;
+    }
+}
+
+console.log(maiorNumero(5, 10));
+console.log(maiorNumero(20, 15));
