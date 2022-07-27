@@ -54,10 +54,38 @@
  Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         */
-       function mudaTexto(elemento, texto) {
-        document.getElementsByTagName(elemento)[1].innerText = texto; 
+       function mudar() {
+        let paragrafo = document.getElementsByTagName('p')[1];
+        paragrafo.innerHTML = 'Eu me vejo como.'
        }
-       mudaTexto('p', 'eu me vejo daqui 20 anos.')
+       mudar();
+
+       function mudaTexto(elemento, texto) {
+        document.querySelector(elemento).innerText = texto; 
+       }
+       mudaTexto('.center-content p', 'eu me vejo daqui 20 anos.')
+
+       function mudaCor(elemento, cor) {
+        document.querySelector(elemento).style.backgroundColor = cor;
+       }
+       mudaCor('.main-content', 'rgb(76, 164, 109)');
+       mudaCor('.center-content', 'white')
+       mudaTexto('.title', 'Exercício 5.1 - JavaScript')
+       
+       function maiusculo(elemento) {
+        let paragrafo = document.getElementsByTagName(elemento)[0];
+        paragrafo.innerHTML = paragrafo.innerHTML.toUpperCase();
+       }
+       maiusculo('p');
+
+       function mostra(elemento) {
+        let paragrafo = document.getElementsByTagName(elemento);
+        for (let i = 0; i < paragrafo.length; i += 1) {
+            console.log(paragrafo[i].innerText);
+        }
+       }
+
+       mostra('p');
     </script>
   </body>
 </html>
