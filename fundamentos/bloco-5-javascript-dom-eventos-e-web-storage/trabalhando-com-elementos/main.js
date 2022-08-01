@@ -16,6 +16,7 @@ function changeTech(e) {
   const techName = document.querySelector('.tech');
   techName.classList.remove('tech');
   e.target.classList.add('tech');
+  input.value = '';
 }
 
 firstLi.addEventListener('click', changeTech);
